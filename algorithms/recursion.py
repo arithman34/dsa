@@ -38,18 +38,3 @@ def improved_recursive_fibonacci(n):
         return cache[n]
 
     return _improved_recursive_fibonacci(n)
-
-def main():
-    import time
-    # t0 = time.perf_counter()
-    # print(recursive_fibonacci(50))
-    # t1 = time.perf_counter()
-    # print(f"Took: {t1 - t0} secs")
-
-    t0 = time.perf_counter()
-    print(improved_recursive_fibonacci(50))
-    t1 = time.perf_counter()
-    print(f"Took: {t1 - t0} secs")
-
-
-main()

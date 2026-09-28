@@ -134,19 +134,3 @@ class LinkedList:
             current = current.next
 
         return f"LinkedList({arr})"
-
-
-def main():
-    ll = LinkedList()
-    ll.append(5)
-    ll.append(7)
-    ll.append(12)
-    ll.append(13)
-
-    ll.insert(3, 100)
-    ll.pop(len(ll) - 1)
-
-    print(ll)
-
-if __name__ == "__main__":
-    main()

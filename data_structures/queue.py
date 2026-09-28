@@ -92,17 +92,3 @@ class QueueWithStacks:
     def __repr__(self):
         front_to_back = list(reversed(self._out_stack._values)) + self._in_stack._values
         return f"QueueUsingStacks({front_to_back})"
-
-
-def main():
-    queue = QueueWithStacks()
-    queue.enqueue(1)
-    queue.enqueue(2)
-    queue.enqueue(3)
-
-    print(queue.dequeue())
-    print(queue.peek())
-    print(queue)
-
-if __name__ == "__main__":
-    main()

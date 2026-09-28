@@ -71,5 +71,3 @@ def quick_sort(arr):
     middle = [x for x in arr if x == pivot]
 
     return quick_sort(left) + middle + quick_sort(right)
-
-print(merge_sort([6, 2, 7, 3, 10, 5, 1, 8]))

@@ -106,27 +106,3 @@ class BST:
 
         _in_order(self.root)
         return arr
-
-
-bst = BST()
-bst.insert(50)
-bst.insert(20)
-bst.insert(70)
-bst.insert(10)
-bst.insert(30)
-bst.insert(60)
-bst.insert(100)
-bst.insert(55)
-bst.insert(65)
-bst.insert(80)
-bst.insert(130)
-bst.insert(75)
-bst.insert(110)
-bst.insert(140)
-bst.insert(105)
-bst.insert(108)
-bst.insert(107)
-bst.insert(109)
-print(bst.in_order())
-bst.remove(100)
-print(bst.in_order())
